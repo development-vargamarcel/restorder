@@ -36,3 +36,23 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+
+next steps:
+
+Integration next steps ─────────────────────────────────────────────╮
+│                                                                      │
+│  drizzle:                                                            │
+│  - You will need to set DATABASE_URL in your production environment  │
+│  - Run npm run db:push to update your database schema                │
+│                                                                      │
+│  lucia:                                                              │
+│  - Run npm run db:push to update your database schema                │
+│  - Visit /demo/lucia route to view the demo                          │
+│                                                                      │
+│  paraglide:                                                          │
+│  - Edit your messages in messages/en.json                            │
+│  - Consider installing the Sherlock IDE Extension                    │
+│  - Visit /demo/paraglide route to view the demo                      │
+│                                                                      │
+├──────────────────────────────────────────────────────────────────────╯
